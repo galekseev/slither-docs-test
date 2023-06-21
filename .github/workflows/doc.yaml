@@ -27,6 +27,10 @@ jobs:
         working-directory: .
         run: yarn
 
+      - name: Debug
+        working-directory: .
+        run: ls
+
       - name: Document with Slither
         uses: crytic/slither-docs-action@v0
         with:
