@@ -34,5 +34,5 @@ jobs:
       - name: Document with Slither
         uses: crytic/slither-docs-action@v0
         with:
-          target: ./contracts
+          target: .
           openai-api-key: ${{ secrets.OPENAI_API_KEY }}
